@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tip</string>
+    <string name="total_amount">Jumlah Tagihan</string>
+    <string name="split">Bagi</string>
+    <string name="services">Pelayanan</string>
+    <string name="round_up_my_tip">Bulatkan Tip Saya</string>
+    <string name="split_tip">Bagi Tip</string>
+    <string name="total">Jumlah</string>
+</resources>
