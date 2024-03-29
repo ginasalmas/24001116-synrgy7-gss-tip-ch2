@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tip</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="split">Split</string>
+    <string name="services">Services</string>
+    <string name="round">Round</string>
+    <string name="round_up_my_tip">Round up my tip</string>
+    <string name="split_tip">Split Tip</string>
+    <string name="total">Total</string>
+</resources>

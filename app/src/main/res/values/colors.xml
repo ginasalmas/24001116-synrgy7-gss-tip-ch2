@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#1B1A1A</color>
+    <color name="white">#FAFAFA</color>
+    <color name="text">#FAFAFA</color>
+    <color name="natural">#FFCCCCCC</color>
+    <color name="primary_90">#FB9224</color>
+    <color name="primary_50">#E5A637</color>
+    <color name="primary_30">#F7DA50</color>
+    <color name="secondary_90">#111832</color>
+    <color name="secondary_50">#202D5D</color>
+    <color name="secondary_30">#344998</color>
+</resources>

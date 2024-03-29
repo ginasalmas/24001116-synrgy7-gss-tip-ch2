@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Tip" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_50</item>
+        <item name="colorPrimaryVariant">@color/primary_90</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/secondary_50</item>
+        <item name="colorSecondaryVariant">@color/secondary_90</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/primary_90</item>
+    </style>
+</resources>
