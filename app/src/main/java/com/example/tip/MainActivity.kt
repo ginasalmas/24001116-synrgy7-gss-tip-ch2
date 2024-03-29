@@ -9,6 +9,7 @@ import android.widget.EditText
 import android.widget.SeekBar
 import android.widget.TextView
 import com.google.android.material.checkbox.MaterialCheckBox
+import kotlin.math.ceil
 
 
 private const val TAG = "MainActivity"
@@ -104,9 +105,14 @@ class MainActivity : AppCompatActivity() {
 
         var tipAmount = baseAmount * tipPercent / 100
 
-        val totalAmount = (baseAmount + tipAmount) / ppl
+        if (roundUpTip) {
+            tipAmount = ceil(tipAmount / 10000) * 10000
+        }
+
+        var totalAmount = (baseAmount + tipAmount) / ppl
 
         tvTipAmount.text = "%.0f".format(tipAmount)
+
         tvTotalAmount.text = "%.0f".format(totalAmount)
     }
 }
